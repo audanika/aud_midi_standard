@@ -1,0 +1,22 @@
+// @license
+// Copyright (c) Audanika
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  "name": "aud_midi_standard",
+  "summary": "The MIDI 1.0 and MIDI 2.0 (UMP) standards as Dart, without any dependency: constants, data models, parsers and codecs.",
+  "domain": [
+    "MIDI 1.0 / 2.0 / UMP standard as data and codecs"
+  ],
+  "interfaces": {
+    "uses": {},
+    "usedBy": {
+      "aud_midi_core": "consumes this package",
+      "aud_midi_rtp": "consumes this package",
+      "aud_midi": "consumes this package",
+      "all backends": "consumes this package"
+    }
+  }
+}
