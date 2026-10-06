@@ -3,6 +3,7 @@ description: "MIDI 1.0 and 2.0 (UMP) standards as dependency-free Dart: constant
 version: 0.0.0
 homepage: https://github.com/audanika/aud_midi_standard
 repository: https://github.com/audanika/aud_midi_standard
+publish_to: none
 topics:
   - midi
   - audio
