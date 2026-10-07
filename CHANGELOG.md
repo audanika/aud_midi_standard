@@ -12,6 +12,7 @@
 - Move the plan to aud_midi_pm
 - Rename the PM repo to aud_midi_pm and move the plan there
 - Use git dependencies and set publish_to none
+- Implement the MIDI 1.0 and MIDI 2.0 standard in Dart
 
 ## 0.0.0 - 2026-10-06
 

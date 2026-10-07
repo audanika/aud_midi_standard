@@ -6,17 +6,20 @@
 
 {
   "name": "aud_midi_standard",
-  "summary": "The MIDI 1.0 and MIDI 2.0 (UMP) standards as Dart, without any dependency: constants, data models, parsers and codecs.",
+  "summary": "MIDI 1.0 and MIDI 2.0 (UMP) standards as dependency-free Dart: messages, constants, codecs, translation, models.",
   "domain": [
-    "MIDI 1.0 / 2.0 / UMP standard as data and codecs"
+    "MIDI 1.0 bytes, UMP MT0-MTF, M2-104-UM translation, BLE-MIDI framing",
+    "Descriptive models: ports, devices, capabilities, events, diagnostics",
+    "Successor of gg_midi_vars (MidiNoteNumbers, MidiControllers)"
   ],
   "interfaces": {
     "uses": {},
     "usedBy": {
-      "aud_midi_core": "consumes this package",
-      "aud_midi_rtp": "consumes this package",
-      "aud_midi": "consumes this package",
-      "all backends": "consumes this package"
+      "aud_midi_core": "MidiMessage, MidiPacket, models, codecs in pipelines",
+      "aud_midi_rtp": "MIDI 1.0 messages, MidiByteEncoder/Parser",
+      "aud_midi_network": "messages, models",
+      "aud_midi": "re-exports the whole API",
+      "aud_midi_apple, aud_midi_android, aud_midi_windows, aud_midi_linux, aud_midi_web": "models, MidiPacket, Ump, MidiBytes"
     }
   }
 }
