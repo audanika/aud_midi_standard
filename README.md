@@ -4,7 +4,7 @@ The MIDI 1.0 and MIDI 2.0 (UMP) standards as Dart without any dependency:
 messages, constants, parsers, codecs, translation and the descriptive
 models of the aud_midi family.
 
-Part of the aud_midi family, see [aud_midi](https://github.com/audanika/aud_midi).
+Part of the aud_midi family, see [aud_midi](https://github.com/audmidi/aud_midi).
 
 ## Goals
 
@@ -38,13 +38,13 @@ Part of the aud_midi family, see [aud_midi](https://github.com/audanika/aud_midi
 dependencies:
   aud_midi_standard:
     git:
-      url: git@github.com:audanika/aud_midi_standard.git
+      url: git@github.com:audmidi/aud_midi_standard.git
 ```
 
 ## Documentation
 
-- [Plan of the aud_midi family](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md)
-- [Decisions](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md),
+- [Plan of the aud_midi family](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md)
+- [Decisions](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md),
   e.g. the translation rules
 - [Guides](doc/guides/)
 
