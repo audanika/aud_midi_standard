@@ -8,10 +8,13 @@ import 'package:aud_midi_standard/aud_midi_standard.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('Example', () {
-    group('greet()', () {
-      test('should greet the name', () {
-        expect(const Example('World').greet(), 'Hello World!');
+  group('MidiNetworkProtocol', () {
+    group('values', () {
+      test('keep their names, the JSON form of the models', () {
+        expect(MidiNetworkProtocol.values.map((value) => value.name), [
+          'appleMidi',
+          'networkMidi2',
+        ]);
       });
     });
   });
