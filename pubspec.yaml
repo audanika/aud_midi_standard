@@ -1,6 +1,6 @@
 name: aud_midi_standard
 description: "MIDI 1.0 and 2.0 (UMP) standards as dependency-free Dart: constants, models, parsers, codecs"
-version: 0.0.0
+version: 0.1.0
 homepage: https://github.com/audmidi/aud_midi_standard
 repository: https://github.com/audmidi/aud_midi_standard
 topics:
